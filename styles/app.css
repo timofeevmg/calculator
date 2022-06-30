@@ -22,7 +22,56 @@ p {
 }
 
 /* BEGIN (write your solution here) */
+.calculation {
+  width: 300px;
 
+  background-color: #2c3e50;
+}
+
+.output {
+  padding: 30px;
+
+  color: #fff;
+
+  text-align: right;
+
+  background-color: #505c68;
+}
+
+button {
+  width: 25%;
+  height: 75px;
+
+  color: #ced4d9;
+
+  font-size: 1.2em;
+
+  background: none;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.buttons-row {
+  display: flex;
+}
+
+.delete {
+  font-size: 80%;
+}
+
+button:hover {
+  background-color: #364c63;
+}
+
+.buttons-row button:nth-child(4) {
+  background: #3498db;
+}
+
+.buttons-row button:nth-child(4):hover {
+  background: #67b2e4;
+}
 
 /* END */
 
