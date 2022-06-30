@@ -39,7 +39,9 @@ p {
 }
 
 button {
-  width: 25%;
+  display: block;
+  width: 100%;
+  /* width: 25%; */
   height: 75px;
 
   color: #ced4d9;
@@ -54,7 +56,9 @@ button {
 }
 
 .buttons-row {
-  display: flex;
+  /* display: flex; */
+  column-count: 4;
+  column-gap: 0;
 }
 
 .delete {
